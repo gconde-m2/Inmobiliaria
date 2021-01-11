@@ -1,0 +1,50 @@
+
+
+
+.contact h1{
+
+    margin-top: 4vh;
+    text-align: center;
+    margin-bottom: 4vh;
+}
+.boxy{
+   
+  margin-left: 10vw;
+  margin-top: 2vh;
+}
+.boxy img{
+  filter: invert(0.4) sepia(1);
+}
+.contact p {
+  
+    
+    
+    color:black;
+    text-align: left;
+   margin-bottom: 30px;
+  
+}
+.contact h1{
+  padding-top: 3vh;
+  font-weight: 300;
+}
+.form{
+  
+  display: inline-flex;
+}
+.form a{
+ padding-bottom: 30px;
+ padding-left: 5px;
+}
+@media screen and (max-width: 480px) {
+
+  .boxy{
+   
+    margin:1vh 3vw;
+  }
+  .contact h1{
+    font-size: 30px;
+    font-weight: 200;
+  }
+
+}

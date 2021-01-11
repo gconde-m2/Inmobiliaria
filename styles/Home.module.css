@@ -1,0 +1,152 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.overlay{
+  z-index: 999;
+  text-align: center;
+  
+  
+}
+.overlay h1{
+  
+  color: white;
+  font-weight: 200;
+  font-size: 55px;
+  z-index: 999;
+}
+.overlay p{
+  color: white;
+  font-weight: 200;
+  font-size: 40px;
+  z-index: 999;
+}
+
+.butt{
+  background-color: transparent;
+  border: 1px solid white;
+font-weight: 300;
+margin-top: 50px;
+}
+.butt:hover{
+  background-color: transparent;
+}
+.footer {
+
+  background-color:#F8F8F8;
+}
+
+.footer img {
+  margin-left: 0.5rem;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+
+
+
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.about{
+  margin-top: 7vh;
+}
+
+.about h1{
+  font-weight: 300;
+  font-size: 45px;
+}
+.about p{
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.abogados{
+
+  margin-top: 7vh;
+  
+}
+
+@media screen and (max-width: 480px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .overlay{
+    margin-top: 7vh;
+    max-height: 50vh;
+    
+    
+  }
+  .overlay h1{
+    margin-top: 3vh;
+    font-size: 25px;
+    
+    
+  }
+  .overlay p{
+   
+    font-size: 25px;
+    
+  }
+  .butt{
+
+    font-size: 15px;
+  }
+  .container {
+    min-height: 60vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .about h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  .about p{
+    font-size: 22px;
+    text-align: center;
+  }
+}
+@media screen and ( max-width: 900px) and ( min-width:700px ) {
+  .about h1{
+  
+    text-align: center;
+  }
+  .about p{
+   
+    text-align: center;
+  }
+  .imagesleft{
+
+    padding-left:100px;
+    padding-right:100px
+  }
+
+
+}
