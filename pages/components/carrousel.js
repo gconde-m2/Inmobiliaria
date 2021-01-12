@@ -23,6 +23,14 @@ export default function caroussel(props) {
   <Carousel.Item className={styles.fondo}>
     <img
       className="d-block w-100 vh-100  min-vw-100 min-vh-80"
+      src="/inmobi6.jpg"
+      alt="Third slide"
+      />
+
+  </Carousel.Item>
+  <Carousel.Item className={styles.fondo}>
+    <img
+      className="d-block w-100 vh-100  min-vw-100 min-vh-80"
       src="/inmobi3.jpg"
       alt="Third slide"
       />

@@ -22,8 +22,11 @@ export default function Home() {
       <section className={styles.container}>
         <div className={styles.overlay} data-aos="fade-in" data-aos-duration="2000">
 
-          <h1 >
+          <h1 className={styles.intro}>
             Vivienda y suelo en toda España
+       </h1>
+       <h1 >
+            Magnificas viviendas en la costa
        </h1>
           <p>
             Los mejores expertos a tu disposición
