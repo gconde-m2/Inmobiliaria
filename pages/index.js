@@ -26,7 +26,7 @@ export default function Home() {
             Vivienda y suelo en toda España
        </h1>
        <h1 >
-            Magnificas viviendas en la costa
+            Magníficas viviendas en la costa
        </h1>
           <p>
             Los mejores expertos a tu disposición
@@ -74,7 +74,7 @@ export default function Home() {
               <h1>
                 Abogados expertos en Derecho Inmobiliario e inversiones
         </h1>
-              <p>Contamos con un equipo de abogados experto en el ámbito de la inmobiliaria, cualquier problema o duda legal que tengas sobre inmuebles o inversiones, te ayudamos.</p>
+              <p>Contamos con un equipo de abogados experto en Derecho Inmobiliario. Te ayudamos con cualquier problema o duda legal que tengas sobre inmuebles o inversiones.</p>
             </Col>
 
           </Row>
